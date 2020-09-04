@@ -1,0 +1,7 @@
+[user]
+	email = saxena.prakhar17@gmail.com
+	name = Prakhar Saxena
+[init]
+	defaultBranch = main
+[core]
+	excludesFile = /home/sxnaprkhr/.gitignore
