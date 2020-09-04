@@ -7,8 +7,8 @@ Feel free to file any [issues](https://github.com/sxnaprkhr/dotfiles/issues).
 
 **To backup:**
 
-```dconf dump /org/gnome/terminal/ > gnome_terminal_settings_backup.txt```
+```dconf dump /org/gnome/terminal/ > gnome-terminal-settings.txt```
 
 **To restore:**
 
-```dconf load /org/gnome/terminal/ < gnome_terminal_settings_backup.txt```
+```dconf load /org/gnome/terminal/ < gnome-terminal-settings.txt```
