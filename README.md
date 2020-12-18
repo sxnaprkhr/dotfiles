@@ -5,10 +5,10 @@ Feel free to file any [issues](https://github.com/sxnaprkhr/dotfiles/issues).
 
 ### gnome terminal settings
 
-**To backup:**
+**Backup your config:**
 
-```dconf dump /org/gnome/terminal/ > gnome-terminal-settings.txt```
+`dconf dump /org/gnome/terminal/ > gnome-terminal-settings.txt`
 
-**To restore:**
+**Load your config:**
 
-```dconf load /org/gnome/terminal/ < gnome-terminal-settings.txt```
+`dconf load /org/gnome/terminal/ < gnome-terminal-settings.txt`
