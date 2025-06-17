@@ -4,7 +4,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Path to my oh-my-zsh-configuration.
-export ZSH="/home/sxnaprkhr/.oh-my-zsh"
+export ZSH="/Users/sxnaprkhr/.oh-my-zsh"
 
 # zsh theme
 ZSH_THEME="powerlevel10k/powerlevel10k"
@@ -29,7 +29,3 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-#keybindings
-bindkey '^H' backward-kill-word
-bindkey '5~' kill-word
