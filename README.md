@@ -2,6 +2,10 @@
 
 **[MacOS]** This repository contains my dotfiles.
 
+![screenshot of iterm2](image.png)
+
+## Installation
+
 ### Steps for git
 
 1. Add [.gitconfig](https://github.com/sxnaprkhr/dotfiles/blob/main/git/.gitconfig) to `~`
